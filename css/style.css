@@ -1,0 +1,31 @@
+/*Global*/
+@import "global/global.css";
+@import "global/header.css";
+
+
+/*main*/
+@import "main/home.css";
+@import "main/about.css";
+
+
+/*our-company*/
+@import "our-company.css";
+
+/*our-ship*/
+@import "our-ship.css";
+
+/*testimonial*/
+@import "testimonial.css";
+
+/*contact*/
+@import "contact.css";
+
+/*footer*/
+@import "footer.css";
+
+
+
+
+
+/*scroll-animation*/
+@import "animation/scroll-animation.css";

@@ -1,0 +1,52 @@
+.contatc{
+    padding: 120px 0px;
+}
+
+.contatc h2{
+    font-size: var(--font-title-2);
+    margin-bottom: var(--margin-bottom);
+}
+
+.contatc .forms{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contatc .forms form{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 25px;
+}
+
+.contatc .forms .list-form{
+    background-image: url('../images/img-8.png');
+    padding: 1rem;
+    
+    cursor: pointer;
+}
+
+
+.contatc .forms .list-form li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.125rem;
+    color: var(--color-white);
+    padding: 2rem;
+}
+
+.contatc .forms .list-form .email-box{
+    display: flex;
+    align-items: center;
+    background: var(--color-white);
+    border-radius: 5px;
+}
+
+@media (min-width: 920px){
+    .contatc .forms{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

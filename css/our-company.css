@@ -1,0 +1,16 @@
+.our-company{
+    padding: 90px 10px;
+    background-image: url('../images/img-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.our-company h2{
+    font-size: var(--font-title-2);
+    margin-bottom: var(--margin-bottom);
+}
+
+.text-our-company{
+    padding: 1rem;
+}

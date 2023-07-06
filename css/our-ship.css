@@ -1,0 +1,47 @@
+.our-ships{
+   padding:120px 1rem;
+}
+
+.our-ships h2{
+    text-align: center;
+    font-size: var(--font-title-2);
+    margin-bottom: var(--margin-bottom);
+}
+
+.our-ships p{
+    font-size: var(--font-paragrapy);
+    margin-bottom: var(--margin-bottom);
+}
+
+.wrapper{
+    max-width: 985px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+    gap: 140px;
+    cursor: grab;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x;
+    scrollbar-width: none;
+}
+
+.card-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.card-wrapper.grab{
+    cursor: grabbing;
+    scroll-snap-type: none;
+    user-select: none;
+    scroll-behavior: auto;
+}
+
+.slide img{
+    width: 100%;
+}

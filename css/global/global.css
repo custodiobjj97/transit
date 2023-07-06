@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+     /*color*/
+    --color-primary:#FF0A3F;
+    --color-secundary:#FF0A3F;
+    --bg-color-gradient:linear-gradient(#FF0A3F, #FF0A3F);
+    --color-white:#FFD6DF;
+    /*font*/
+    --font-links:1.125rem;
+    --font-title-1:5rem;
+    --font-title-2:2.5rem;
+    --font-paragrapy:1.222rem;
+    /*margin bottom*/
+    --margin-bottom:2rem;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.white{
+    color: var(--color-white);
+}
+
+.color-title {
+    color: var(--color-secundary)
+}
+
+.btn{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: inline-block;
+}
+
+button{
+    padding: 1.1rem 2.1rem;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: var(--color-white);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+.btn-dark{
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+}
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 200px;
+    border-radius: 5px;
+}

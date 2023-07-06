@@ -1,0 +1,10 @@
+.scroll{
+    transform: translateX(-175px);
+    opacity: 0;
+    transition: .5s;
+}
+
+.scroll.show{
+    transform: translateX(0);
+    opacity: 1;
+}
